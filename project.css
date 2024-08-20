@@ -1,0 +1,247 @@
+body{background: rgb(128, 84, 125);
+    
+}
+.arsa{
+    display: flex;
+    justify-content: space-around;
+}
+.menu header{
+ display:flex;
+ justify-content: space-around;
+ border-bottom:2px solid rgb(18, 18, 18);
+ border-radius: 10px;
+background-color: rebeccapurple;
+}
+.jackie{
+    font-size: xlarge;
+    font-family: fantasy;
+    color: palevioletred;
+}
+.main-title{
+    font-size: x-large;
+    font-family: fantasy;
+    color: rgb(179, 41, 179);
+    margin-right: 50px;
+}
+.prs{
+    text-align: center;
+}
+.TWO{
+    font-size: large;
+    color: rgb(210, 127, 141);
+    margin:50px;
+    font-family: 'arial narrow bold';
+   
+}
+.ONE{
+    font-size: large;
+    color: rgb(137, 27, 27);
+    margin: 50px;
+    font-family: 'Arial Narrow Bold';
+
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.sg1{
+    border-radius: 10px;
+    background-color: rgb(112, 33, 111);
+    margin-right: 10px;
+    width: 400px;
+    height: 400px;
+    
+}
+.sg2{
+    border-radius: 10px;
+    background:rgb(216, 137, 201);
+    width: 400px;
+    height:400px;
+}
+.sg3{
+    border-radius:10px;
+    background-color: rgb(123, 79, 121);
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    
+}
+.dead{
+    margin-left: 50px;
+     border-radius: 10px;
+   
+height: 400px;
+width: 300px;
+}
+.poly{ margin-left: 50px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+.wapa{ margin-left: 50px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+.lukas img{margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height:400px;
+    width: 300px;
+}
+.aura img{ margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+
+}
+.deadly-guy img{margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;}
+
+.flex{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+.a1{width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: rgb(29, 1, 29);
+}
+.pops{
+    width:400px;
+    height: 500px;
+    border-radius: 10px;
+    background: red;
+}
+.wtf{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: grey;
+}
+.kyoto{
+    display: flex;
+    justify-content: space-around;
+}
+.panda{
+    display: flex;
+    justify-content: space-around;
+}
+.pirate{
+    display: flex;
+    justify-content: space-around;
+}
+.a1 h1{
+    font-family: fantasy;
+    color: palevioletred;
+    font-size: medium;
+    margin-left: 2.5px;
+}
+.pops h1{
+    font-family: fantasy;
+    color: yellowgreen;
+    font-size: medium;
+    margin-left: 2.5px;
+}
+.pirate h1{ 
+    font-family: fantasy;
+    font-size: medium;
+    color: darkolivegreen;
+    margin-left: 2.5px;
+    
+}
+.a1 button{
+
+    background: rgb(80, 9, 32);
+    color: blueviolet;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.pops button{
+    background: orangered;
+    color: brown;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.wtf button{
+    border-radius: 10px;
+    background:darkgrey;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.lukas{
+    margin-top: 10px; ;
+    border-radius: 10px;
+    background: rgb(26, 0, 26);
+    width: 400px;
+    height: 500px;
+}
+.jordans{
+    display: flex;
+    justify-content: space-around;
+}
+.aura{margin-top: 10px;
+     border-radius: 10px;
+    background:pink;
+    width: 400px;
+    height: 500px;}
+.winner{
+    display: flex;
+    justify-content: space-around;
+}
+.deadly-guy{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: grey;
+    width: 400px;
+    height: 500px;
+}
+.heart{
+    display: flex;
+    justify-content: space-around;
+}
+.lukas h1{
+    font-size: medium;
+    font-family: fantasy;
+    color: palevioletred;
+    margin-left: 2.5px;
+
+}
+.lukas button{margin-top: 10px;
+    background-color: rgb(234, 106, 183);
+    color: rgb(254, 0, 237);
+    border-radius: 10px; 
+    margin-right: 10px; 
+
+}
+.aura h1{
+    font-size: medium;
+    font-family: fantasy;
+    color: rgb(168, 32, 180);
+    margin-left: 2.5px;
+}
+.aura button{margin-top: 10px;
+background: palevioletred;
+border-radius: 10px;
+margin-right: 10px;}
+.deadly-guy h1{
+    font-size: medium;
+    font-family:fantasy;
+    color: yellowgreen;
+    margin-left: 2.5px;
+}
+.deadly-guy button{
+    margin-top: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-right: 10px;
+}
