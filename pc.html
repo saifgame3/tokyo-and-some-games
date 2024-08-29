@@ -13,9 +13,9 @@
     <div class="menu1">
         <header>
             <div class="menu">
-                <h1 class="a">Destination</h1>
-                <h1 class="b">Experieces</h1>
-                <h1>Key Informations</h1>
+                <a class="a" href="#destination">Destination</a>
+                <a class="b" href="#exper">Experieces</a>
+                <a href="#key-info">Key Informations</a>
             </div>
             <div class="header-input">
                 <input placeholder="SEARCH..." type="search">
@@ -29,25 +29,25 @@
         <div class="acr-left">
             <div class="main-text">
                 <h1 class="title2">日本</h1>
-                <h1 class="title1">japan</h1>
-                <p>well we made this website to help you guy know about the country befaure you travel to be honest we tried our best so you be ready to travel</p>
+                <h1 class="title1">Japan</h1>
+                <p>Well we made this website to help you guy know about the country befaure you travel to be honest we tried our best so you be ready to travel</p>
             </div>
             <div class="lukes">
                 <img class="dev image" src="neko arc.jpg" alt="my image" style="margin:12px 0px ;">
                 <p style="margin-left:10px ;">Saif Debbabi</p>
             </div>
             <div class="button">
-                <button class="rpg">see more :D</button>
+                <button class="rpg">See more</button>
             </div>
             </div>
             </div>
-            <div class="image-cards">
+            <div class="image-cards" id="destination">
                 <div class="card">
                     <div class="ar">
                         <img src="redd-f-Np1aN841iAU-unsplash.jpg" alt="">
                     </div>
-                    <div class="tix"> <p>get into the future</p>
-                        <h1>tokyo</h1>
+                    <div class="tix"> <p>Get into the future</p>
+                        <h1>Tokyo</h1>
                     </div>
                 </div>
                 <div class="card">
@@ -56,8 +56,8 @@
 
                     </div>
                     <div class="tix2"> 
-                        <p>see the past</p>
-                        <h1>kyoto</h1>
+                        <p>See the past</p>
+                        <h1>Kyoto</h1>
                     </div>
                 </div>  
             </div>
@@ -69,8 +69,8 @@
 
                     </div>
                     <div class="tix2"> 
-                        <p>see nature</p>
-                        <h1>nara</h1>
+                        <p>see Nature</p>
+                        <h1>Nara</h1>
                     </div>
                 </div> 
                 <div class="card">
@@ -79,26 +79,26 @@
 
                     </div>
                     <div class="tix2"> 
-                        <p>be surprised</p>
-                        <h1>osaka</h1>
+                        <p>Be surprised</p>
+                        <h1>Osaka</h1>
                     </div>
                 </div> 
             </div>
             <div class="tales">
                 <div class="img3">
-                    <img src="sorasak-_UIN-pFfJ7c-unsplash.jpg" alt="">
+                    <img id="image" src="sorasak-_UIN-pFfJ7c-unsplash.jpg" alt="">
                 </div>
                 
                 <div class="project">
-                    <h1 >Tales of Japan</h1>
-                    <p>
-                        momotaro: arguably the most famous japanses folktale this is the quirky story of a boy born from a peach who was discovered by an old childless couple when they split the soft fruit open. momotaro jumped out and was raised by the couple
+                    <h1 id="title">Tales of Japan</h1>
+                    <p id="description">
+                        Momotaro: arguably the most famous Japanese folktale. This is the quirky story of a boy born from a peach who was discovered by an old childless couple when they split the soft fruit open. Momotaro jumped out and was raised by the couple.
                     </p>
                     <div class="line">
-                        <a href="#">tokyo</a>
-                        <a href="#">kyoto</a>
-                        <a href="#">osaka</a>
-                        <a href="#">nara</a>
+                        <a  onclick="changeContent('Tokyo', 'toyko.jpg', 'The story centers on the idea that a cursed pop-up will appear on a random victim’s computer. The pop-up is just an image of a door, and a recorded voice will ask, ‘Do you like the red room?’ The pop-up will continue to appear until the voice can finish its question, even if it is closed. Those who see the pop-up are later found dead, the walls painted red with their own blood. ')">Tokyo</a>
+                        <a  onclick="changeContent('Kyoto', 'sorasak-_UIN-pFfJ7c-unsplash.jpg', 'Japan has a wealth of legends and folktales, which often enriches the experience of travelling through certain regions. Many are associated with certain areas, such as Okayama prefecture’s Momotaro (Peach Boy), but more often than not most areas have their own assortment of local folklore.')">Kyoto</a>
+                        <a  onclick="changeContent('Osaka', 'osaka.jpg', 'Definitely the most touristic place in Osaka: Dotombori is located along a canal cut by several bridges including Ebisu (in the photo) where you can see the hosts in action. The character on the light panel on the right (Glico) is certainly the most photographed thing in Osaka. I never understood why but it makes a good landmark if you are meeting friends')">Osaka</a>
+                        <a  onclick="changeContent('Nara', 'nara.jpeg', 'Nara and Narayana were both considered as Gods and Rishis, who took birth as sons of Dharma through his wife Murti who was a daughter of Daksha. It was told that Narayana took birth as four – Nara, Narayana, Hari, and Krishna.  Out of these, Nara and Narayana travelled to the hermitage of Badari in their golden wagons and engaged in fierce austerities there')">Nara</a>
                     </div>
                     <button>ABOUT US</button>
                 </div>
@@ -113,8 +113,8 @@
                 <img src="laura-thonne-8CJ6HSeCWU0-unsplash.jpg" alt="">
             </div>
         </div>
-<div class="explore">
-    <div class="find-out"><h1>find out more</h1>  </div>
+<div class="explore" id="exper">0
+    <div class="find-out"><h1>Find out more</h1>  </div>
     <div class="explore-desc">
         <div class="title3">
             <h1>キヨトでのあなたの休日</h1>
@@ -136,14 +136,14 @@
 <div class="solo-img"><img src="yu-kato-824OwkP7sgk-unsplash.jpg" alt="">
 </div>
 
-<div class="explore">
+<div class="explore" id="key-info">
     <div class="find-out"><h1></h1>  </div>
     <div class="explore-desc">
         <div class="title3">
             <h1>キヨトでのあなたの休日</h1>
-            <h2>our travel blog</h2>
+            <h2>Our travel blog</h2>
             <p>
-                kyoto, located in the kansai region of japan is the country's seventh largest city,with a population of 1.4 million people. steeped in history,kyoto is home to roughly one quarter of japan's national treasure,countless shrines and temples and seventeen sites recognized by unesco as world heritage sites
+               Kyoto, located in the kansai region of japan is the country's seventh largest city,with a population of 1.4 million people. steeped in history,kyoto is home to roughly one quarter of japan's national treasure,countless shrines and temples and seventeen sites recognized by unesco as world heritage sites
             </p>
             <button class=""></button>
 
@@ -165,8 +165,8 @@
         </div>
         <div class="card">
             <div class="text-description">
-                <h3>history of culture</h3>
-                <h2>history</h2>
+                <h3>History of culture</h3>
+                <h2>History</h2>
                 <a href="">Read more</a>
             </div>
             <img src="library-of-congress-s_jB72ikcso-unsplash.jpg" alt="" width="400" height="400">
@@ -174,23 +174,41 @@
         <div class="card">
             <img src="susann-schuster-umHsjqIJyK4-unsplash.jpg" alt="" width="400" height="400">
             <div class="text-description">
-                <h3>holidays in kyoto</h3>
-                <h2>events</h2>
+                <h3>Holidays in kyoto</h3>
+                <h2>Events</h2>
                 <a href="">Read more</a>
             </div>
         </div>
         <div class="card">
             <div class="text-description">
-                <h3>visiting tokyo in march</h3>
-                <h2>calendar</h2>
+                <h3>Visiting tokyo in march</h3>
+                <h2>Calendar</h2>
                 <a href="">Read more</a>
             </div>
-            <img src="er" alt="" width="400" height="400">
+            <img src="redd-f-Np1aN841iAU-unsplash.jpg" alt="" width="400" height="400">
         </div>
 </div>
+<footer>
+    <div class="last">
+        <h1>Follow Us and <br> Subscribe On Our Newsletter</h1>
+        <div class="subs">
+            <input type="email" name="" id="" placeholder="YOUR EMAIL">
+            <button>SUBSCRIBE</button>
+
+        </div>
+    </div>
+    <div class="less">
+        <i class="fa-brands fa-discord"></i>
+                <i class="fa fa-youtube"></i>
+        <i class="fas fa-x-twitter"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+</footer>
 
 
 
+
+<script src="tokyo.js"></script>
 </body>
 
 </html>
